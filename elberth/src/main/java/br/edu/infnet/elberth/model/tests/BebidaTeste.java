@@ -1,10 +1,13 @@
 package br.edu.infnet.elberth.model.tests;
 
+import br.edu.infnet.elberth.model.domain.Bebida;
+
 public class BebidaTeste {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
+		Bebida bebida = new Bebida();
+		
+		System.out.println(bebida);
 	}
-
 }
